@@ -4,6 +4,7 @@
 	"description": "Advent of Code 2025 solutions",
 	"type": "module",
 	"scripts": {
+		"debug-example": "sh -c 'tsx \"day-2/index.ts\" < \"day-2/example.txt\"' _",
 		"example": "sh -c 'tsx \"$1/index.ts\" < \"$1/example.txt\"' _",
 		"input": "sh -c 'tsx \"$1/index.ts\" < \"$1/input.txt\"' _"
 	},
